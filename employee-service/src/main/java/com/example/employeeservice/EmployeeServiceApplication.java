@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableFeignClients
+@EnableDiscoveryClient
 public class EmployeeServiceApplication {
 
     public static void main(String[] args) {
